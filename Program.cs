@@ -1,11 +1,8 @@
-﻿using iFoodDbMap.EFCore;
+﻿
+using iFoodDbMap.EFCore;
 
 using (var context = new IFoodDB())
 {
-
-
-
-    Console.WriteLine("iFood");
-
+    Console.WriteLine("Simple mapping iFood");
 }
 

@@ -25,11 +25,9 @@ namespace iFoodDbMap.EFCore.Entity.Map
                 .HasColumnType("varchar(30)")
                 .IsRequired();
 
-           
-
-
-
-
+            builder.HasMany(c => c.Address)
+                 .WithOne(cc => cc.Client)
+                 .IsRequired();
         }
     }
 }
