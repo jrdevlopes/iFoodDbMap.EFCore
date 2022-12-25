@@ -1,5 +1,5 @@
 ﻿
-using iFoodDbMap.EFCore;
+using iFoodDbMap.EFCore.Context;
 
 using (var context = new IFoodDB())
 {

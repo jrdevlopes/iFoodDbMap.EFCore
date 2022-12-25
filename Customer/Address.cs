@@ -1,13 +1,12 @@
-﻿
-namespace iFoodDbMap.EFCore.Entity
+﻿namespace iFoodDbMap.EFCore.Customer
 {
     public class Address
     {
         public short Id { get; set; }
-        public string Street { get; set; }
-        public string City { get; set; }
+        public string Street { get; set; } = "";
+        public string City { get; set; } = "";
         public int Number { get; set; }
-        public string State { get; set; }
+        public string State { get; set; } = "";
         public string? Complement { get; set; } = null;
         public string? Alias { get; set; } = null;
 

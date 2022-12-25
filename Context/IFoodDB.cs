@@ -1,8 +1,8 @@
-﻿using iFoodDbMap.EFCore.Entity;
+﻿using iFoodDbMap.EFCore.Customer;
 using iFoodDbMap.EFCore.Entity.Map;
 using Microsoft.EntityFrameworkCore;
 
-namespace iFoodDbMap.EFCore
+namespace iFoodDbMap.EFCore.Context
 {
     public class IFoodDB : DbContext
     {

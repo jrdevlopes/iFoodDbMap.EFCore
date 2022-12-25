@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using iFoodDbMap.EFCore;
+using iFoodDbMap.EFCore.Context;
 
 #nullable disable
 
